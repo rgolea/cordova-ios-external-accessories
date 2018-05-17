@@ -12,7 +12,7 @@
 		</config-file>
         <config-file target="*-Info.plist" parent="UISupportedExternalAccessoryProtocols">
             <array>
-                <string>uk.co.etiltd.bluetherm1</string>
+                <string>com.sandisk.ixpandv2</string>
             </array>
         </config-file>
 		<source-file src="src/ios/iOSExternalAccessory.m" />
