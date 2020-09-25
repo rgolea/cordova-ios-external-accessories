@@ -1,9 +1,9 @@
 {
-  "name": "com.rgolea.ios-external-accessories",
+  "name": "cordova-ios-external-accessories",
   "version": "2.0.0",
   "description": "",
   "cordova": {
-    "id": "com.rgolea.ios-external-accessories",
+    "id": "cordova-ios-external-accessories",
     "platforms": [
       "ios"
     ]
