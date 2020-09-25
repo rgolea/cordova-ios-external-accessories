@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-ios-external-accessories" version="2.0.0"
+  xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>External Accessories</name>
+  <js-module name="ExternalAccessories" src="www/cordova-ios-external-accessories.js">
+    <clobbers target="cordova.plugins.ExternalAccessories" />
+  </js-module>
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="ExternalAccessories">
+        <param name="ios-package" value="ExternalAccessories" />
+      </feature>
+    </config-file>
+    <source-file src="src/ios/cordova-ios-external-accessories.m" />
+  </platform>
+</plugin>
